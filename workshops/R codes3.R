@@ -2,7 +2,6 @@ library(tidyverse)
 
 df <- read_csv("./data/gusto.csv")
 
-Select a row:
 table(df$tx)
 
 sum(df$day30)/nrow(df)
